@@ -27,6 +27,7 @@ export const GroupsList = ({ groups, setSelectedGroup, setOpenModal, selectedGro
           style={{ margin: "1rem 0" }}
 
         >Create Notes Group</ButtonIn>
+          <div style={{ height: "82vh", overflowY: "auto" }}>
         <List >
           {groups.map((group, index) => (
             <ListItem onClick={() => setSelectedGroup(group)} sx={{ bgcolor: selectedGroup?.name === group?.name ? "#F7ECDC" : "none", borderRadius: "32px 0 0 32px", padding: "1rem" }}>
@@ -41,6 +42,7 @@ export const GroupsList = ({ groups, setSelectedGroup, setOpenModal, selectedGro
             </ListItem>
           ))}
         </List>
+       </div>      
       </div>
     </div>
 
