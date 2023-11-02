@@ -1,0 +1,32 @@
+.notes-list-container {
+  flex: 1;
+  background-color: #F7ECDC;
+  overflow: auto;
+}
+
+.note-card {
+  display: flex;
+  padding: 2rem;
+}
+
+.note-card-timestamp {
+  margin-right: 2rem;
+  min-width: 10rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .notes-list-container {
+   width: 100vw;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .note-card-timestamp {
+    margin-right: 0.5rem; 
+  }
+  .note-card-timestamp { 
+    min-width: 6rem;
+  }
+}

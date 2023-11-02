@@ -1,0 +1,9 @@
+.group-container { 
+    width: 30%;
+    padding: 2rem 0 2rem 2rem;
+    max-width: 400px;
+    height: 100vh;
+    min-width: 250px;
+}
+.group-container-body {
+}
